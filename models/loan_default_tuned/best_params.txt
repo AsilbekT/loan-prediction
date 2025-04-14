@@ -1,0 +1,5 @@
+max_depth: 9
+eta: 0.22276310531742494
+subsample: 0.9820775039959428
+colsample_bytree: 0.8468854408758163
+min_child_weight: 7

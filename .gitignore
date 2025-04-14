@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
+
+# Environment files
+.env
+*.env
+*.venv/
+.venv/
+env/
+venv/
+ENV/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.out
+
+
+
+# Datasets
+*.csv
+data/
+*.parquet
+
+# NGINX and Unix socket
+*.sock
+
+# Jupyter & IPython history
+.ipynb_checkpoints
+.history
+
+# IDEs
+.vscode/
+.idea/
+
+# OS backups
+*~
+*.swp
+
+# Docker and systemd (optional)
+docker-compose.override.yml
+*.service

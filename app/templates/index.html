@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loan Default Prediction API</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f9f9f9;
+            padding: 40px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        code {
+            background-color: #eee;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+        pre {
+            background: #f0f0f0;
+            padding: 10px;
+            border-left: 4px solid #2c3e50;
+            overflow-x: auto;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>📡 Loan Default Prediction API</h1>
+    <p>This API lets you predict the probability of a loan default using a trained XGBoost model.</p>
+
+    <h2>🔗 Endpoint</h2>
+    <p><code>POST /predict</code></p>
+
+    <h2>📥 Sample Request</h2>
+    <pre>{
+  "loan_amnt": 12000,
+  "term": 36,
+  "int_rate": 13.49,
+  "installment": 406.15,
+  "grade": "C",
+  "emp_length": 10,
+  "home_ownership": "MORTGAGE",
+  "annual_inc": 72000,
+  ...
+}</pre>
+
+    <h2>📤 Sample Response</h2>
+    <pre>{
+  "default_probability": 0.3274,
+  "prediction": "Fully Paid"
+}</pre>
+
+    <h2>✅ Health Check</h2>
+    <p>GET <code>/health</code> → returns <code>OK</code> if running</p>
+</div>
+</body>
+</html>
