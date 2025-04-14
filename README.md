@@ -274,6 +274,20 @@ loan-prediction/
 ```
 ---
 
+## 🔍 Correlation Analysis
+
+We analyzed the correlation between features and loan default status using a cleaned dataset of ~1.3M records.
+
+A heatmap of the top 25 most correlated features was generated (see `analysis/correlation_top25.png`).
+
+**Key Takeaways**:
+- Loan `grade`, `sub_grade`, and `int_rate` are among the strongest predictors of default.
+- `fico_range_low` and `fico_range_high` show inverse correlation to default risk.
+- Behavioral features such as `percent_bc_gt_75` and `bc_util` highlight financial overextension.
+- Some features such as `inq_last_6mths`, `home_ownership`, and `verification_status` provide moderate predictive value.
+- Highly correlated internal features (e.g., FICO low/high or funded vs. requested amount) should be reviewed to reduce redundancy in models.
+
+
 ## 🧪 How to Use the API
 
 **Endpoint:** `/predict`
