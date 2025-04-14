@@ -19,6 +19,7 @@ This project is a **Loan Default Risk Prediction API** that leverages GPU-accele
 
 ## 📂 Project Structure
 
+```
 loan-prediction/
 │
 ├── app/                    # Flask REST API
@@ -44,7 +45,7 @@ loan-prediction/
 ├── gunicorn.service        # systemd service file
 ├── Dockerfile (optional)
 └── README.md               # This file
-
+```
 ---
 
 ## 🧪 How to Use the API
