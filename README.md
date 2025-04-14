@@ -42,9 +42,8 @@ loan-prediction/
 │   └── accepted_2007_to_2018Q4.csv
 │
 ├── requirements.txt
-├── gunicorn.service        # systemd service file
 ├── Dockerfile (optional)
-└── README.md               # This file
+└── README.md               
 ```
 ---
 
