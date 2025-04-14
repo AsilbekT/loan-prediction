@@ -122,7 +122,7 @@ This section illustrates different kinds of inputs sent to the /predict API endp
 📤 Sample Response:
 ```json
 {
-  "default_probability": 0.0074,
+  "default_probability": 0.0191,
   "prediction": "Fully Paid"
 }
 ```
@@ -224,6 +224,14 @@ This section illustrates different kinds of inputs sent to the /predict API endp
   "debt_settlement_flag": 1
 }
 ```
+Response
+```json
+{
+    "default_probability": 0.9992,
+    "prediction": "Default"
+}
+```
+
 ❌ Example 3 – Invalid Input (raw text fields)
 ```json
 {
