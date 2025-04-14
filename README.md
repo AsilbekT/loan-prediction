@@ -42,7 +42,7 @@ loan-prediction/
 │   └── accepted_2007_to_2018Q4.csv
 │
 ├── requirements.txt
-├── Dockerfile (optional)
+├── Dockerfile
 └── README.md               
 ```
 ---
