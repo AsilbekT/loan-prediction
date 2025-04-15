@@ -8,6 +8,7 @@ This project is a **Loan Default Risk Prediction API** that leverages GPU-accele
 
 - Harpreet Singh
 - Asilbek Turgunboev
+- Hugo Andres Garcia Perez
 
 ---
 
